@@ -1,0 +1,27 @@
+<!--顶部banner-->
+<view class="heade-image">
+  <image src="/images/content/group.jpg"></image>
+</view>
+<view class="content">
+  <view class="header-text">
+    <text>窑民部落陶吧</text>
+  </view>
+
+  <view class="text">
+    <text>20人陶艺DIY团建生日派对套餐</text>
+    <text>1份</text>
+    <text>3800元</text>
+  </view>
+  
+  <view class="text">
+    <text>优惠价</text>
+    <text class="text-price">2099元</text>
+  </view>
+  <view class="content-intro">
+    <text>
+   制作时间最长2小时
+套餐内包含：手捏成型+拉坯+上色上釉+烧制+专业老师指导
+可提供纯净水
+    </text>
+  </view>
+</view>

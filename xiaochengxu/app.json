@@ -1,0 +1,48 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/sort/sort",
+    "pages/more/more",
+    "pages/map/map",
+    "pages/single-intro/single-intro",
+    "pages/single-intro2/single-intro2",
+    "pages/single-intro3/single-intro3",
+    "pages/single-intro4/single-intro4",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#556B2F",
+    "navigationBarTitleText": "窑民部落陶艺坊欢迎你",
+    "navigationBarTextStyle":"light",
+    "backgroundColor": "#6E6E6E",  
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "color": "#light",
+    "selectedColor": "#87c38f",
+    "backgroundColor": "#F4F4F4",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/tabBar/home.png",
+        "selectIconPath": "images/tabBar/home2.png" 
+      },
+      {
+        "pagePath": "pages/sort/sort",
+        "text":"关于",
+        "iconPath": "images/tabBar/sort.png",
+        "selectIconPath": "images/tabBar/sort2.png"
+      },
+      {
+        "pagePath": "pages/more/more",
+        "text": "更多",
+        "iconPath":"images/tabBar/more.png",
+        "selectIconPath":"images/tabBar/more2.png"
+      }
+    ]
+  }
+ 
+}

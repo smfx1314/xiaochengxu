@@ -1,0 +1,96 @@
+<!--轮播图-->
+<view class="seletion">
+    <swiper class="seletion-swiper" indicator-dots="true"  autoplay="true" interval="3000" duration="1000">
+      <block wx:for="{{imgUrls}}">
+        <swiper-item class="banner">
+          <image src="{{item}}" class="slide-image"/>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+<!--内容-->
+  <view class="context">
+    <view class="header">
+      <text>精品系列</text>
+    </view>
+
+<!--图片-->
+    <view class="images-intro">
+      <view class="image-intro" bindtap="bindintro1">
+        <image src="/images/content/single2.jpg" mode="scaleToFill"></image>
+        <view class="images-text">
+          <text>单人手工陶艺套餐3选1</text>
+        </view>
+        <view class="images-price">
+          <text>￥80</text>
+        </view>
+      </view>
+      <view class="image-intro" bindtap="bindintro2">
+        <image src="/images/content/single.jpg" mode="scaleToFill"></image>
+        <view class="images-text">
+          <text>单人手工DIY拉坯制作</text>
+        </view>
+        <view class="images-price">
+          <text>￥90</text>
+        </view>
+      </view>
+      <view class="image-intro" bindtap="bindintro3">
+        <image src="/images/content/double.jpg" mode="scaleToFill"></image>
+        <view class="images-text">
+          <text>双人亲子陶艺DIY拉坯制作</text>
+        </view>
+        <view class="images-price">
+          <text>￥130</text>
+        </view>
+      </view>
+      <view class="image-intro" bindtap="bindintro4">
+        <image src="/images/content/group.jpg" mode="scaleToFill"></image>
+        <view class="images-text">
+          <text>20人内陶艺DIY团队建设生日派对套餐</text>
+        </view>
+        <view class="images-price">
+          <text>￥2099</text>
+        </view>
+      </view>
+    </view>
+    <view class="header">
+      <text>创意陶瓷</text>
+    </view>
+
+
+    <view class="creative">
+      <text>家居生活</text>
+    </view>
+    <view class="creative">
+      <text class="creative-text">它们以安静的方式在那里守候</text>
+    </view>
+    <view class="creative">
+       <image src="/images/content/creative1.png"></image>
+    </view>
+
+
+    <view class="creative">
+      <text>创意礼品定制</text>
+    </view>
+    <view class="creative">
+      <text class="creative-text">礼,承载心意传递情谊</text>
+    </view>
+    <view class="creative">
+       <image src="/images/content/creative2.png"></image>
+    </view>
+
+
+
+  </view>
+ 
+<!--index.wxml-->
+<!-- <view class="container">
+  <view  bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view> -->
+

@@ -1,0 +1,27 @@
+<!--顶部banner-->
+<view class="heade-image">
+  <image src="/images/content/double.jpg"></image>
+</view>
+<view class="content">
+  <view class="header-text">
+    <text>窑民部落陶吧</text>
+  </view>
+
+  <view class="text">
+    <text>双人亲子陶艺DIY拉坯制作</text>
+    <text>1份</text>
+    <text>160元</text>
+  </view>
+  
+  <view class="text">
+    <text>优惠价</text>
+    <text class="text-price">130元</text>
+  </view>
+  <view class="content-intro">
+    <text>
+    套餐提供：陶泥、瓷泥不限量+拉坯机及所有陶艺工具+专业陶艺老师指导+高温烧制
+全程两小时，作品完成后，需一周左右的时间进行风干（如需赶时间可与老师沟通），接着店铺帮忙进行一千多度的烧制，作品继而诞生。
+注意：一位家长及一位8岁以下儿童，可共同制作一份陶艺作品 并烧制。如需上色上釉需另付30元。
+    </text>
+  </view>
+</view>

@@ -1,0 +1,85 @@
+.time{
+  height: 50px;
+  background-color: #C5C1AA;
+  margin-bottom: 1px;
+}
+.time image{
+  margin-top: 10px;
+  margin-left: 5px;
+  width: 60rpx;
+  height: 50rpx;
+  margin-right: 5px;
+  position: absolute;
+}
+
+.time text{
+  position: relative;
+  left: 40px;
+  top: 15px;
+}
+.phone{
+  height: 50px;
+  background-color: #C5C1AA;
+  margin-bottom: 1px;
+}
+.phone image{
+  margin-top: 10px;
+  margin-left: 5px;
+  width: 60rpx;
+  height: 50rpx;
+  margin-right: 5px;
+  position: absolute;
+}
+.phone text{
+  position: relative;
+  left: 40px;
+  top: 15px;
+}
+.weichat{
+  height: 50px;
+  background-color: #C5C1AA;
+  margin-bottom: 1px;
+}
+.weichat image{
+  margin-top: 10px;
+  margin-left: 5px;
+  width: 60rpx;
+  height: 50rpx;
+  margin-right: 5px;
+  position: absolute;
+}
+
+.weichat text{
+  position: relative;
+  left: 40px;
+  top: 15px;
+}
+.map{
+  height: 50px;
+  background-color: #C5C1AA;
+  margin-bottom: 1px;
+}
+
+.map image{
+  margin-top: 10px;
+  margin-left: 5px;
+  width: 60rpx;
+  height: 50rpx;
+  margin-right: 5px;
+  position: absolute;
+}
+/**定位**/
+.map text{
+  position: relative;
+  left: 40px;
+  top: 15px;
+}
+/**欢迎图片边框设置**/
+.more-images{
+  height: 241px;
+}
+/**欢迎图片**/
+.more-images image{
+  background-color: #C5C1AA;
+  width: 100%;
+}

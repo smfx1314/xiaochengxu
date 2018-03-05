@@ -1,0 +1,27 @@
+<view class="select">
+<view class="more-images">
+  <image src="/images/other/welcome.png"></image>
+</view>
+
+  <view class="time">
+    <image src="/images/other/time.png"></image>
+    <text>营业时间：10:00-21:00</text> 
+  </view> 
+  <view class="phone" bindtap="bindphone">  
+    <image src="/images/other/phone.png"></image>
+    <text>联系方式：17765141092</text>
+  </view>
+  <view class="weichat">
+    <image src="/images/other/wei.png"></image>
+    <text>微信：taoyi8686</text>
+  </view>
+  <view class="map" bindtap="bindmap">
+    <image src="/images/other/address.png"></image>
+    <text>地址：广富林路万达广场金街171号2楼</text>
+  </view>
+   <view class="map" bindtap="bindmap">
+    <image src="/images/other/map.png"></image>
+    <text>查看地图</text>
+  </view>
+</view>
+

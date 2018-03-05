@@ -1,0 +1,8 @@
+<text>营业时间：9:00-21:00</text>  
+<text>联系方式：</text>
+
+<view  bindtap="bindmap">
+    <button>地图</button>
+  </view>
+
+

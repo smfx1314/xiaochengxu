@@ -1,0 +1,23 @@
+<!--顶部banner-->
+<view class="heade-video">
+  <video src="{{src}}" ></video>
+</view>
+<view class="context">
+  <view class="header-text">
+    <text>快乐陶艺</text>
+  </view>
+  <view class="images">
+    <view class="image-item">
+      <image src="/images/1.jpg"></image>
+    </view>
+    <view class="image-item">
+      <image src="/images/1.jpg"></image>
+    </view>
+    <view class="image-item">
+      <image src="/images/1.jpg"></image>
+    </view>
+    <view class="image-item">
+      <image src="/images/1.jpg"></image>
+    </view>
+  </view>
+</view>

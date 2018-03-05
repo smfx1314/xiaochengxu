@@ -1,0 +1,108 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+/**轮播图外框宽高**/
+.seletion{
+  width: 100%;
+  height: 400rpx;
+}
+.seletion-swiper{
+  width: 100%;
+  height: 400rpx;
+}
+/**轮播图宽100%**/
+.slide-image{  
+    width: 100%;
+    height: 400rpx;  
+} 
+/**主题内容框高度**/
+.cntext{
+  height: 100%;
+}
+/**精品系列竖线条**/
+.header{
+ border-left-width: 3px;
+ border-left-style: solid;
+ border-left-color: limegreen;
+ margin-top: 5px;
+} 
+/**精品系列文本**/
+.header text{
+  margin-left: 5px;
+  color: #545454;
+  font-weight: bold;
+}
+/**内容和图片最外框**/
+.images-intro{
+  width: 100%;
+ 
+  /* display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; */
+}
+/**各个内容和图片外框高度**/
+.image-intro{
+  height: 100px;
+  background-color: #F5F5DC;
+  margin-bottom: 2px;
+  
+}
+/**内容各个图片框**/
+.images-intro image{
+  width: 35%;
+  height: 100px;
+  margin-top: 1px;
+  margin-left: 5px;
+  position: absolute;
+}
+/**标题**/
+.images-text{
+  position: relative;
+  left: 155px;
+  top: 20px;
+  color: #8B4500;
+}
+/**价格**/
+.images-price{
+  position: relative;
+  left: 170px;
+  top: 25px;
+  color: red;
+}
+/**创意陶艺**/
+.creative{
+  display: flex;
+  justify-content: center;
+}
+.creative text{
+  font-weight: bold;
+  margin: 5px;
+}
+.creative-text{
+  font-size: 15px;
+  color: #8B8B7A;
+}
+ .creative image{
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #F5F5F5;
+}
